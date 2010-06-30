@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="l42_HelpActivityTextColor">#000000</color>
+<color name="l42_HUD_OverlayTextColor">#87a305</color>
+<color name="l42_HUD_ProgressStart">#c5ef01</color>
+<color name="l42_HUD_ProgressEnd">#bae105</color>
+</resources>

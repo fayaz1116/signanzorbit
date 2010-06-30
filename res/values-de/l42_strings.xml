@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="l42_nameofthegame_full">Signanzorbit</string>
+	<string name="l42_HelpActivity_Title">Signanzorbit</string>
+	<string name="l42_HelpActivity_Text1">Die hohe Masse des Schatzes führte durch den Signanzeffekt zu einer Transformation des Raumes in ein schwereloses Gebilde in dem all deine Besitztümer eine kompakte zentrale Masse darstellen. Diese Masse ist so groß, dass sich bereits verschiedene kleinere Objekte in Umlaufbahnen um den Schatz befinden.</string>
+	<string name="l42_HelpActivity_Text2">Diesen zentralen &quot;Goldplaneten&quot; gilt es nun so weit wie möglich zu zerstören um den Schatz zu verkleinern. Um dieses Ziel zu erreichen müssen beliebige fliegende Objekte (auch die weggesprengten Teile des Planeten) aus ihren Umlaufbahnen hinaus auf den Schatz geschleudert werden. Der Spieler besitzt die Fähigkeit gerichtete Kraftimpulse im Raum auszulösen um die Objekte zu beeinflussen.</string>
+	<string name="l42_HelpActivity_Text3">Ein Impuls kann durch Berühren des Bildschirms erzeugt werden, dabei lädt sich die Kraft des Impulses über die Zeit auf. Ein Objekt muss mit der richtigen Kraft an der richtigen Stelle getroffen werden um beim Absturz maximalen Schaden anzurichten.</string>
+	<string name="l42_HelpActivity_Text4">Es gibt zwei Modi um Impulse zu generieren: Im normalen Modus wird der Impuls immer an exakt der Stelle ausgeführt, an der er gestartet wurde, was bedeutet, dass der Spieler den Bildschirm an einer Stelle berühren muss, an der sich (noch) gar kein Objekt befindet. Er muss also die Umlaufbahn eines Objektes vorausberechnen um ein Objekt mit maximaler Kraft zu treffen. Der \"Easy Mode\" hat diese Einschränkung nicht, aber Vorsicht: Das Bewegen des Zielcursors bewegt auch den Blickpunkt!</string>
+	<string name="l42_HelpActivity_Text5">Die Kameraperspektive kann kugelförmig rund um den Schatz beliebig verändert werden, die Steuerung der Kamera erfolgt ebenfalls mit dem Touchscreen.</string>
+	<string name="l42_Menu_BoundingSphereSE_show">SceneEntity BS einblenden</string>
+	<string name="l42_Menu_BoundingSphereSE_hide">SceneEntity BS ausblenden</string>
+	<string name="l42_Menu_BoundingSphereModel_show">Model Bounding Spheres einblenden</string>
+	<string name="l42_Menu_BoundingSphereModel_hide">Model Bounding Spheres ausblenden</string>
+	<string name="l42_Menu_EasyMode_on">Easy Mode einschalten</string>
+	<string name="l42_Menu_EasyMode_off">Easy Mode ausschalten</string>
+	<string name="l42_Menu_Vibrate_on">Vibration einschalten</string>
+	<string name="l42_Menu_Vibrate_off">Vibration ausschalten</string>
+	<string name="l42_HUD_PlanetHealth">Planet</string>
+	<string name="l42_Select_Loglevel">Loglevel auswählen</string>
+	<string name="l42_Menu_Loglevel">Loglevel</string>
+	<string name="l42_Loglevel_none">Aus</string>
+	<string name="l42_Menu_ShowFPS_on">FPS einblenden</string>
+	<string name="l42_Menu_ShowFPS_off">FPS ausblenden</string>
+</resources>
