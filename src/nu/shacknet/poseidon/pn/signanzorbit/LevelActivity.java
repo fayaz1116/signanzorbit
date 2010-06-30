@@ -43,17 +43,11 @@ public class LevelActivity extends Activity
 {
 	static
 	{
-		System.loadLibrary("l42signanzorbit");
-		initNative();
+		System.loadLibrary("signanzorbit");
 	}
-
-	/**
-	 * Inits the native library.
-	 */
-	private static native void initNative();
 	
 	/** The Constant SCENE_STATE_KEY. */
-	public static final String SCENE_STATE_KEY = "l42_state";
+	public static final String SCENE_STATE_KEY = "state";
 	
 	/** The current version of the scene state file */
 	public static final int SCENE_STATE_VERSION = 1;
@@ -227,12 +221,12 @@ public class LevelActivity extends Activity
 	 	Window window = getWindow();
 	 	window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		
-	 	setContentView(R.layout.l42_level);
-		renderView = (RenderView)findViewById(R.id.l42_RenderView);
-		scoreProgress = (ProgressBar)findViewById(R.id.l42_scoreProgressbar);
-		time = (TextView)findViewById(R.id.l42_timeTextField);
-		timeProgress = (ProgressBar)findViewById(R.id.l42_timeProgressbar);
-		fps = (TextView)findViewById(R.id.l42_fpsTextField);
+	 	setContentView(R.layout.level);
+		renderView = (RenderView)findViewById(R.id.RenderView);
+		scoreProgress = (ProgressBar)findViewById(R.id.scoreProgressbar);
+		time = (TextView)findViewById(R.id.timeTextField);
+		timeProgress = (ProgressBar)findViewById(R.id.timeProgressbar);
+		fps = (TextView)findViewById(R.id.fpsTextField);
 		fps.setVisibility(Config.SHOW_FPS ? TextView.VISIBLE : TextView.INVISIBLE);
 		
 		vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
@@ -252,10 +246,10 @@ public class LevelActivity extends Activity
 	
 	private void initLoglevelDialog()
 	{
-		final CharSequence[] items = {"Verbose", "Debug", "Info", "Warn", "Error", getString(R.string.l42_Loglevel_none)};
+		final CharSequence[] items = {"Verbose", "Debug", "Info", "Warn", "Error", getString(R.string.Loglevel_none)};
 
 		AlertDialog.Builder builder = new AlertDialog.Builder(this);
-		builder.setTitle(R.string.l42_Select_Loglevel);
+		builder.setTitle(R.string.Select_Loglevel);
 		builder.setSingleChoiceItems(items, Config.LOGLEVEL, new DialogInterface.OnClickListener()
 		{
 		    public void onClick(DialogInterface dialog, int item)
@@ -526,23 +520,23 @@ public class LevelActivity extends Activity
 	{
 		switch(item.getItemId())
 		{
-		case R.id.l42_Menu_ShowFPS:
+		case R.id.Menu_ShowFPS:
 			Config.SHOW_FPS ^= true;
 			fps.setVisibility(Config.SHOW_FPS ? TextView.VISIBLE : TextView.INVISIBLE);
 			return true;
-		case R.id.l42_Menu_BoundingSphereSE:
+		case R.id.Menu_BoundingSphereSE:
 			Config.SHOW_SCENEENTITY_BOUNDING_SPHERES ^= true;
 			return true;
-		case R.id.l42_Menu_BoundingSphereModel:
+		case R.id.Menu_BoundingSphereModel:
 			Config.SHOW_MODEL_BOUNDING_SPHERES ^= true;
 			return true;
-		case R.id.l42_Menu_EasyMode:
+		case R.id.Menu_EasyMode:
 			Config.EASY_MODE ^= true;
 			return true;
-		case R.id.l42_Menu_Vibrate:
+		case R.id.Menu_Vibrate:
 			Config.VIBRATE ^= true;
 			return true;
-		case R.id.l42_Menu_Loglevel:
+		case R.id.Menu_Loglevel:
 			showDialog(DIALOG_ID_LOGLEVEL);
 			return true;
 		}
@@ -561,30 +555,30 @@ public class LevelActivity extends Activity
 			MenuItem item = menu.getItem(i);
 			switch(item.getItemId())
 			{
-			case R.id.l42_Menu_ShowFPS:
+			case R.id.Menu_ShowFPS:
 				item.setTitle(Config.SHOW_FPS ? 
-						R.string.l42_Menu_ShowFPS_off : 
-						R.string.l42_Menu_ShowFPS_on);
+						R.string.Menu_ShowFPS_off : 
+						R.string.Menu_ShowFPS_on);
 				break;
-			case R.id.l42_Menu_BoundingSphereSE:
+			case R.id.Menu_BoundingSphereSE:
 				item.setTitle(Config.SHOW_SCENEENTITY_BOUNDING_SPHERES ? 
-						R.string.l42_Menu_BoundingSphereSE_hide : 
-						R.string.l42_Menu_BoundingSphereSE_show);
+						R.string.Menu_BoundingSphereSE_hide : 
+						R.string.Menu_BoundingSphereSE_show);
 				break;
-			case R.id.l42_Menu_BoundingSphereModel:
+			case R.id.Menu_BoundingSphereModel:
 				item.setTitle(Config.SHOW_MODEL_BOUNDING_SPHERES ? 
-						R.string.l42_Menu_BoundingSphereModel_hide : 
-						R.string.l42_Menu_BoundingSphereModel_show);
+						R.string.Menu_BoundingSphereModel_hide : 
+						R.string.Menu_BoundingSphereModel_show);
 				break;
-			case R.id.l42_Menu_EasyMode:
+			case R.id.Menu_EasyMode:
 				item.setTitle(Config.EASY_MODE ?
-						R.string.l42_Menu_EasyMode_off : 
-						R.string.l42_Menu_EasyMode_on);
+						R.string.Menu_EasyMode_off : 
+						R.string.Menu_EasyMode_on);
 				break;
-			case R.id.l42_Menu_Vibrate:
+			case R.id.Menu_Vibrate:
 				item.setTitle(Config.VIBRATE ?
-						R.string.l42_Menu_Vibrate_off : 
-						R.string.l42_Menu_Vibrate_on);
+						R.string.Menu_Vibrate_off : 
+						R.string.Menu_Vibrate_on);
 				break;
 			}
 		}
@@ -598,7 +592,7 @@ public class LevelActivity extends Activity
 	public boolean onCreateOptionsMenu(Menu menu)
 	{
 		MenuInflater inflater = getMenuInflater();
-	    inflater.inflate(R.menu.l42_menu, menu);
+	    inflater.inflate(R.menu.menu, menu);
 	    return true;
 	}
 	

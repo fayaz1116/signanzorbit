@@ -28,13 +28,13 @@
 <item
     android:id="@android:id/progress"
 >
-    <clip android:id="@+id/l42_scoreProgressbarClip">
-        <shape android:id="@+id/l42_scoreProgressbarShape">
+    <clip android:id="@+id/scoreProgressbarClip">
+        <shape android:id="@+id/scoreProgressbarShape">
             <corners
                 android:radius="5dip" />
             <gradient
-                android:startColor="@color/l42_HUD_ProgressStart"
-                android:endColor="@color/l42_HUD_ProgressEnd"
+                android:startColor="@color/HUD_ProgressStart"
+                android:endColor="@color/HUD_ProgressEnd"
                 android:angle="270" />
         </shape>
     </clip>

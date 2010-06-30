@@ -297,7 +297,7 @@ public class MaterialManager
 		private Bitmap loadTexture(String filename)
 		{
 			Context context = LevelActivity.getInstance();
-			InputStream is = context.getResources().openRawResource(context.getResources().getIdentifier(filename, "drawable", "at.ac.tuwien.cg.cgmd.bifth2010"));
+			InputStream is = context.getResources().openRawResource(context.getResources().getIdentifier(filename, "drawable", "nu.shacknet.poseidon.pn.signanzorbit"));
 			Bitmap bitmap = null;
 			try
 			{

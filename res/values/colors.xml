@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="HelpActivityTextColor">#aaaaaa</color>
+<color name="HUD_OverlayTextColor">#87a305</color>
+<color name="HUD_ProgressStart">#c5ef01</color>
+<color name="HUD_ProgressEnd">#bae105</color>
+</resources>

@@ -154,7 +154,7 @@ public class AOMLoader
 		
 		try
 		{
-			dis = new DataInputStream(new GZIPInputStream(context.getResources().openRawResource(context.getResources().getIdentifier(filename, "raw", "at.ac.tuwien.cg.cgmd.bifth2010"))));
+			dis = new DataInputStream(new GZIPInputStream(context.getResources().openRawResource(context.getResources().getIdentifier(filename, "raw", "nu.shacknet.poseidon.pn.signanzorbit"))));
 			HashMap<String, Material> materials = new HashMap<String, Material>();
 			HashMap<String, Geometry> geometries = new HashMap<String, Geometry>();
 			HashMap<String, Model> models = new HashMap<String, Model>();

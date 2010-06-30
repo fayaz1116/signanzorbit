@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+	
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<!--android:background="@drawable/l00_menuebackground">-->
+		
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+			
+			<!--Title-->
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:textStyle="bold"
+				android:paddingLeft="@dimen/HelpActivity_TitlePaddingLeft"
+				android:paddingTop="@dimen/HelpActivity_TitlePaddingTop"
+				android:paddingRight="@dimen/HelpActivity_TitlePaddingRight"
+				android:paddingBottom="@dimen/HelpActivity_TitlePaddingBottom"
+				android:textSize="@dimen/HelpActivity_TitleSize"
+				android:text="@string/HelpActivity_Title"
+				android:textColor="@color/HelpActivityTextColor"/>
+			
+			<!--Paragraph 1-->
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:paddingLeft="@dimen/HelpActivity_TextPaddingLeft"
+				android:paddingTop="@dimen/HelpActivity_TextPaddingTop"
+				android:paddingRight="@dimen/HelpActivity_TextPaddingRight"
+				android:paddingBottom="@dimen/HelpActivity_TextPaddingBottom"
+				android:textSize="@dimen/HelpActivity_TextSize"
+				android:text="@string/HelpActivity_Text1"
+				android:textColor="@color/HelpActivityTextColor"/>
+			
+			<!--Paragraph 2-->
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:paddingLeft="@dimen/HelpActivity_TextPaddingLeft"
+				android:paddingTop="@dimen/HelpActivity_TextPaddingTop"
+				android:paddingRight="@dimen/HelpActivity_TextPaddingRight"
+				android:paddingBottom="@dimen/HelpActivity_TextPaddingBottom"
+				android:textSize="@dimen/HelpActivity_TextSize"
+				android:text="@string/HelpActivity_Text2"
+				android:textColor="@color/HelpActivityTextColor"/>
+				
+			<!--Paragraph 3-->
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:paddingLeft="@dimen/HelpActivity_TextPaddingLeft"
+				android:paddingTop="@dimen/HelpActivity_TextPaddingTop"
+				android:paddingRight="@dimen/HelpActivity_TextPaddingRight"
+				android:paddingBottom="@dimen/HelpActivity_TextPaddingBottom"
+				android:textSize="@dimen/HelpActivity_TextSize"
+				android:text="@string/HelpActivity_Text3"
+				android:textColor="@color/HelpActivityTextColor"/>
+				
+			<!--Paragraph 4-->
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:paddingLeft="@dimen/HelpActivity_TextPaddingLeft"
+				android:paddingTop="@dimen/HelpActivity_TextPaddingTop"
+				android:paddingRight="@dimen/HelpActivity_TextPaddingRight"
+				android:paddingBottom="@dimen/HelpActivity_TextPaddingBottom"
+				android:textSize="@dimen/HelpActivity_TextSize"
+				android:text="@string/HelpActivity_Text4"
+				android:textColor="@color/HelpActivityTextColor"/>
+				
+			<!-- Screenshot-->				
+			<ImageView
+				android:id="@+id/help_screenshot"
+				android:src="@drawable/screenshot"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:adjustViewBounds="true"
+				android:scaleType="centerInside"
+				android:paddingLeft="@dimen/HelpActivity_ImagePaddingLeft"
+				android:paddingTop="@dimen/HelpActivity_ImagePaddingTop"
+				android:paddingRight="@dimen/HelpActivity_ImagePaddingRight"
+				android:paddingBottom="@dimen/HelpActivity_ImagePaddingBottom"/>
+				
+			<!--Paragraph 5-->
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:paddingLeft="@dimen/HelpActivity_TextPaddingLeft"
+				android:paddingTop="@dimen/HelpActivity_TextPaddingTop"
+				android:paddingRight="@dimen/HelpActivity_TextPaddingRight"
+				android:paddingBottom="@dimen/HelpActivity_BottomPadding"
+				android:textSize="@dimen/HelpActivity_TextSize"
+				android:text="@string/HelpActivity_Text5"
+				android:textColor="@color/HelpActivityTextColor"/>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

@@ -44,7 +44,7 @@ public class Config
 	public static long GAMETIME_WAIT_AFTER_COMPLETE = 2000;
 	
 	/** The name of the level resource */
-	public static String LEVELNAME = "l42_orbit";
+	public static String LEVELNAME = "orbit";
 	
 	// bounding sphere stuff
 	/**
@@ -74,7 +74,7 @@ public class Config
 	public static boolean VIBRATE = true;
 	
 	/** The minimum loglevel to display */
-	public static int LOGLEVEL = NONE;
+	public static int LOGLEVEL = VERBOSE;
 	
 	/** the total level gametime in ms. */
 	public static long GAMETIME = 120000;
@@ -214,16 +214,16 @@ public class Config
 	public static final float SELECTION_BSPHERE_INCREMENT = 0.5f;
 	
 	/** The normal impact sound. */
-	public static final int SOUND_IMPACT = R.raw.l42_impact;
+	public static final int SOUND_IMPACT = R.raw.impact;
 	
 	/** The heavy impact sound. */
-	public static final int SOUND_HEAVYIMPACT = R.raw.l42_heavyimpact;
+	public static final int SOUND_HEAVYIMPACT = R.raw.heavyimpact;
 	
 	/** The shoot sound. */
-	public static final int SOUND_SHOOT = R.raw.l42_shoot;
+	public static final int SOUND_SHOOT = R.raw.shoot;
 	
 	/** The finish sound. */
-	public static final int SOUND_YEAH = R.raw.l42_yeah;
+	public static final int SOUND_YEAH = R.raw.yeah;
 
 	/** All used sounds. */
 	public static int[] SOUND_LIST = 

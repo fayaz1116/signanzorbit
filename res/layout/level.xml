@@ -4,66 +4,66 @@
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent">
 	<nu.shacknet.poseidon.pn.signanzorbit.RenderView
-		android:id="@+id/l42_RenderView"
+		android:id="@+id/RenderView"
 		android:layout_width="fill_parent"
 		android:layout_height="fill_parent"/>
 	
 	<TextView
-		android:id="@+id/l42_fpsTextField"
+		android:id="@+id/fpsTextField"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_gravity="top|left"
 		android:padding="6dip"
-		android:background="@layout/l42_hud_backgroundshape"
+		android:background="@layout/hud_backgroundshape"
 	/>	
 	<ProgressBar
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		style="?android:attr/progressBarStyleHorizontal"
-		android:id="@+id/l42_scoreProgressbar"
-		android:progressDrawable="@layout/l42_progressbar"
+		android:id="@+id/scoreProgressbar"
+		android:progressDrawable="@layout/progressbar"
 		android:max="100"
 		android:progress="100"
 	    android:minWidth="120dip"
 	    android:maxWidth="120dip"
 	    android:padding="6dip"
-	    android:background="@layout/l42_hud_backgroundshape"
+	    android:background="@layout/hud_backgroundshape"
 	    android:layout_gravity="top|center"
 	/>	
 	<TextView
-		android:id="@+id/l42_scoreTextField"
+		android:id="@+id/scoreTextField"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_gravity="top|center"
 		android:padding="6dip"
 		android:minWidth="120dip"
 		android:gravity="center"
-		android:text="@string/l42_HUD_PlanetHealth"
-		android:textColor="@color/l42_HUD_OverlayTextColor"
+		android:text="@string/HUD_PlanetHealth"
+		android:textColor="@color/HUD_OverlayTextColor"
 	/>
 	<ProgressBar
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		style="?android:attr/progressBarStyleHorizontal"
-		android:id="@+id/l42_timeProgressbar"
-		android:progressDrawable="@layout/l42_progressbar"
+		android:id="@+id/timeProgressbar"
+		android:progressDrawable="@layout/progressbar"
 		android:max="100"
 		android:progress="100"
 	    android:minWidth="50dip"
 	    android:maxWidth="50dip"
 	    android:padding="6dip"
-	    android:background="@layout/l42_hud_backgroundshape"
+	    android:background="@layout/hud_backgroundshape"
 	    android:layout_gravity="top|right"
 	/>	
 	<TextView
-		android:id="@+id/l42_timeTextField"
+		android:id="@+id/timeTextField"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_gravity="top|right"
 		android:padding="6dip"
 		android:minWidth="60dip"
 		android:gravity="center"
-		android:textColor="@color/l42_HUD_OverlayTextColor"
+		android:textColor="@color/HUD_OverlayTextColor"
 	/>
 	
 	

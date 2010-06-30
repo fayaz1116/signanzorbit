@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:id="@+id/Menu_ShowFPS"
+		android:title="@string/Menu_ShowFPS_on"
+		android:icon="@android:drawable/ic_menu_info_details" />
+	<item android:id="@+id/Menu_BoundingSphereSE"
+		android:title="@string/Menu_BoundingSphereSE_show"
+		android:icon="@android:drawable/ic_menu_view" />
+	<item android:id="@+id/Menu_BoundingSphereModel"
+		android:title="@string/Menu_BoundingSphereModel_show"
+		android:icon="@android:drawable/ic_menu_view" />
+	<item android:id="@+id/Menu_EasyMode"
+		android:title="@string/Menu_EasyMode_on"
+		android:icon="@android:drawable/ic_menu_mylocation" />
+	<item android:id="@+id/Menu_Vibrate"
+		android:title="@string/Menu_Vibrate_on"
+		android:icon="@android:drawable/ic_menu_edit" />
+	<item android:id="@+id/Menu_Loglevel"
+		android:title="@string/Menu_Loglevel"
+		android:icon="@android:drawable/ic_menu_preferences" />
+</menu>

@@ -438,7 +438,7 @@ public class RenderView extends GLSurfaceView implements Renderer
 		FileOutputStream fos = null;
 		try
 		{
-			File screenshotDir = new File(Environment.getExternalStorageDirectory(), context.getString(R.string.l42_nameofthegame_full));
+			File screenshotDir = new File(Environment.getExternalStorageDirectory(), context.getString(R.string.NameOfTheGame));
 			if(!screenshotDir.exists())
 				screenshotDir.mkdirs();
 			int counter = 0;

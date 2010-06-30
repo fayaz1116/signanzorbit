@@ -89,7 +89,7 @@ public class HUD extends Model
 				new Color4(0.0f,0.0f,0.0f,0.0f), 
 				new Color4(0.0f,0.0f,0.0f,1.0f), 
 				0.5f, 
-				"l42_circle");
+				"circle");
 		
 		add(circle, material);
 	}

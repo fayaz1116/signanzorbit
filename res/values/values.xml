@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="HelpActivity_TitleSize">30sp</dimen>
+<dimen name="HelpActivity_TitlePaddingLeft">6dp</dimen>
+<dimen name="HelpActivity_TitlePaddingTop">6dp</dimen>
+<dimen name="HelpActivity_TitlePaddingRight">6dp</dimen>
+<dimen name="HelpActivity_TitlePaddingBottom">0dp</dimen>
+<dimen name="HelpActivity_TextSize">15sp</dimen>
+<dimen name="HelpActivity_TextPaddingLeft">6dp</dimen>
+<dimen name="HelpActivity_TextPaddingTop">6dp</dimen>
+<dimen name="HelpActivity_TextPaddingRight">6dp</dimen>
+<dimen name="HelpActivity_TextPaddingBottom">0dp</dimen>
+<dimen name="HelpActivity_BottomPadding">60dp</dimen>
+<dimen name="HelpActivity_ImagePaddingLeft">20dp</dimen>
+<dimen name="HelpActivity_ImagePaddingTop">12dp</dimen>
+<dimen name="HelpActivity_ImagePaddingRight">20dp</dimen>
+<dimen name="HelpActivity_ImagePaddingBottom">0dp</dimen>
+</resources>
