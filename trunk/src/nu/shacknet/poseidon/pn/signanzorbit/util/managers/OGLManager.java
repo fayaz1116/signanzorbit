@@ -27,7 +27,7 @@ public class OGLManager
 {
 	static
 	{
-		System.loadLibrary("l42signanzorbit");
+		System.loadLibrary("signanzorbit");
 	}
 	
 	/** The Constant instance. */
