@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="l42_nameofthegame_full">Signanzorbit</string>
+	<string name="l42_HelpActivity_Title">Signanzorbit</string>
+	<string name="l42_HelpActivity_Text1">The huge mass of your treasure and the Signanzeffect led to a transformation of space into a zero-gravity structure where all your possessions form a central compact shape. This central shape has already drawn various smaller objects into orbits.</string>
+	<string name="l42_HelpActivity_Text2">This central \'Goldplanet\' must be damaged as much as possible to decrease the treasures value. The only way to damage the Goldplanet is to push any moving object (including the exploding planet parts) out of its orbit and let it crash into the planet. The player can use directional force pushes to move objects.</string>
+	<string name="l42_HelpActivity_Text3">A force push is triggered by touching the screen, a longer touch results in a stronger push. An object must be hit with the right force at the right place to do maximum damage when it crashes.</string>
+	<string name="l42_HelpActivity_Text4">There are two modes for triggering force pushes: In the normal mode the force push is always executed at the exact place where it started, meaning that the player has to spot the touch at a certain point before the object is at that point and therefore has to predict an objects orbit to hit it with full force. The easy mode doesn\'t have that restriction, but beware - moving the force-push-point now also moves the camera!</string>
+	<string name="l42_HelpActivity_Text5">The perspective camera can be moved freely on a sphere around the treasure by moving your finger on the screen.</string>
+	<string name="l42_Menu_BoundingSphereSE_show">Show SceneEntity BS</string>
+	<string name="l42_Menu_BoundingSphereSE_hide">Hide SceneEntity BS</string>
+	<string name="l42_Menu_BoundingSphereModel_show">Show Model BS</string>
+	<string name="l42_Menu_BoundingSphereModel_hide">Hide Model BS</string>
+	<string name="l42_Menu_EasyMode_on">Turn Easy Mode on</string>
+	<string name="l42_Menu_EasyMode_off">Turn Easy Mode off</string>
+	<string name="l42_Menu_Vibrate_on">Turn vibrate on</string>
+	<string name="l42_Menu_Vibrate_off">Turn vibrate off</string>
+	<string name="l42_HUD_PlanetHealth">Planet Health</string>
+	<string name="l42_Select_Loglevel">Select a Loglevel</string>
+	<string name="l42_Menu_Loglevel">Loglevel</string>
+	<string name="l42_Loglevel_none">None</string>
+	<string name="l42_Menu_ShowFPS_on">Show FPS</string>
+	<string name="l42_Menu_ShowFPS_off">Hide FPS</string>
+</resources>

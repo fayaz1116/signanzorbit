@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<nu.shacknet.poseidon.pn.signanzorbit.RenderView
+		android:id="@+id/l42_RenderView"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"/>
+	
+	<TextView
+		android:id="@+id/l42_fpsTextField"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="top|left"
+		android:padding="6dip"
+		android:background="@layout/l42_hud_backgroundshape"
+	/>	
+	<ProgressBar
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		style="?android:attr/progressBarStyleHorizontal"
+		android:id="@+id/l42_scoreProgressbar"
+		android:progressDrawable="@layout/l42_progressbar"
+		android:max="100"
+		android:progress="100"
+	    android:minWidth="120dip"
+	    android:maxWidth="120dip"
+	    android:padding="6dip"
+	    android:background="@layout/l42_hud_backgroundshape"
+	    android:layout_gravity="top|center"
+	/>	
+	<TextView
+		android:id="@+id/l42_scoreTextField"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="top|center"
+		android:padding="6dip"
+		android:minWidth="120dip"
+		android:gravity="center"
+		android:text="@string/l42_HUD_PlanetHealth"
+		android:textColor="@color/l42_HUD_OverlayTextColor"
+	/>
+	<ProgressBar
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		style="?android:attr/progressBarStyleHorizontal"
+		android:id="@+id/l42_timeProgressbar"
+		android:progressDrawable="@layout/l42_progressbar"
+		android:max="100"
+		android:progress="100"
+	    android:minWidth="50dip"
+	    android:maxWidth="50dip"
+	    android:padding="6dip"
+	    android:background="@layout/l42_hud_backgroundshape"
+	    android:layout_gravity="top|right"
+	/>	
+	<TextView
+		android:id="@+id/l42_timeTextField"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="top|right"
+		android:padding="6dip"
+		android:minWidth="60dip"
+		android:gravity="center"
+		android:textColor="@color/l42_HUD_OverlayTextColor"
+	/>
+	
+	
+</FrameLayout>
